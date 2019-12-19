@@ -1,0 +1,22 @@
+server:
+  port: 7001
+  servlet:
+    context-path: /eureka
+
+spring:
+  application:
+    name: eureka-server
+  freemarker:
+    prefer-file-system-access: false
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/eureka
+  server:
+    enable-self-preservation: false
+

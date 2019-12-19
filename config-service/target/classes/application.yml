@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:troycao/hanguang-config.git
+          username: caoq1987@gmail.com
+          password: caoasdf1234
+

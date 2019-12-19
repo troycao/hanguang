@@ -1,0 +1,29 @@
+server:
+  port: 9201
+
+spring:
+  application:
+    name: zuul-service
+  main:
+    allow-bean-definition-overriding: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/eureka
+  instance:
+    instance-id: hanguang-gateway.com
+    prefer-ip-address: true
+
+zuul:
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+  routes:
+    manage:
+      serverId: manage-service
+      path: /manage/**
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000

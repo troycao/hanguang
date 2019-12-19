@@ -1,0 +1,6 @@
+com\troy\hanguang\entity\SysUser.class
+com\troy\hanguang\entity\Product.class
+com\troy\hanguang\service\OrderService.class
+com\troy\hanguang\service\ProductClientService.class
+com\troy\hanguang\service\ProductClientServiceFallbackFactory$1.class
+com\troy\hanguang\service\ProductClientServiceFallbackFactory.class

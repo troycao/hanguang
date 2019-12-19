@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configservice" />
+        <module name="eureka-service" />
+        <module name="eurekaservice" />
+        <module name="hanguang-api" />
+        <module name="hanguangapi" />
+        <module name="manage-service" />
+        <module name="manageservice" />
+        <module name="sys-service" />
+        <module name="sysservice" />
+        <module name="zuulservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configservice" target="1.8" />
+      <module name="eureka-service" target="1.8" />
+      <module name="hanguang" target="1.8" />
+      <module name="hanguang-api" target="1.8" />
+      <module name="hystrixdashboard" target="1.8" />
+      <module name="manage-service" target="1.8" />
+      <module name="sys-service" target="1.8" />
+      <module name="zuulservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

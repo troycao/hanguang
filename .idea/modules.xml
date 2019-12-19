@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-service/configservice.iml" filepath="$PROJECT_DIR$/config-service/configservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service/eureka-service.iml" filepath="$PROJECT_DIR$/eureka-service/eureka-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hanguang.iml" filepath="$PROJECT_DIR$/hanguang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hanguang-api/hanguang-api.iml" filepath="$PROJECT_DIR$/hanguang-api/hanguang-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manage-service/manage-service.iml" filepath="$PROJECT_DIR$/manage-service/manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-service/sys-service.iml" filepath="$PROJECT_DIR$/sys-service/sys-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-service/zuulservice.iml" filepath="$PROJECT_DIR$/zuul-service/zuulservice.iml" />
+    </modules>
+  </component>
+</project>

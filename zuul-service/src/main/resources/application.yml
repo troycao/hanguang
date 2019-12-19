@@ -1,0 +1,16 @@
+server:
+  port: 9201
+
+spring:
+  application:
+    name: zuul-service
+  main:
+    allow-bean-definition-overriding: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/eureka
+  instance:
+    instance-id: hanguang-gateway.com
+    prefer-ip-address: true

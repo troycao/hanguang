@@ -1,0 +1,21 @@
+server:
+  port: 8002
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/eureka
+    register-with-eureka: true
+  instance:
+    instance-id: hanguang-manageservice:8002
+    prefer-ip-address: true
+
+spring:
+  application:
+    name: manage-service
+  main:
+    allow-bean-definition-overriding: true
+
+feign:
+  hystrix:
+    enabled: true
